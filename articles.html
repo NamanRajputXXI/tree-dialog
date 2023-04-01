@@ -1,0 +1,401 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tree Dialog - Articles</title>
+  <link href="css/bootstrap.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg">
+    <div class="container col-11 col-lg-10">
+      <div class="navbar-brand d-flex align-items-center">
+        <img src="img/logo.svg" alt="Tree Dialog Logo">
+        <a href="index.html">Tree<span class="text-primary">Dialog</span></a>
+      </div>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse gap-4 justify-content-between" id="navbarNav">
+        <ul class="navbar-nav gap-4 align-items-center">
+          <li class="nav-item">
+            <a class="nav-link" href="articles.html">Brows Articles</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="articles.html">Brows Blogs</a>
+          </li>
+        </ul>
+        <div class="d-flex flex-column flex-lg-row align-items-center gap-3 mt-3 mt-lg-0">
+          <button class="btn">Log In</button>
+          <button class="btn">Sign Up</button>
+          <button class="btn btn-primary">Post Article</button>
+          <form class="d-flex mb-2 mb-md-0" role="search">
+            <input class="form-control me-2 d-md-none" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn" type="submit">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <section class="page-header">
+    <div class="container">
+      <div class="col-md-10 mx-auto text-center">
+        <h1 class="header-title">Our Articles</h1>
+      </div>
+    </div>
+  </section>
+
+  <main class="articles-page">
+    <div class="container-fluid p-md-5">
+      <div class="d-flex flex-column flex-lg-row gap-4">
+        <div>
+          <h5 class="articles-page__title">Category: Business</h5>
+          <div class="blog-posts-list row row-cols-1 row-cols-md-2 g-4 gy-5 mb-5">
+            <div class="col">
+              <div class="card">
+                <img src="img/blog-1.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <div class="card-cat"><a href="#">Business</a></div>
+                  <a href="article-detail.html">
+                    <h5 class="card-title">Lorem ipsum dolor sit.</h5>
+                  </a>
+                  <small class="card-detail d-flex align-items-center py-1 text-black-50">
+                    <div class="card-avatar">
+                      <img class="img-fluid" src="img/avatar.png" alt="">
+                    </div>by<span class="card-author ps-1 text-black">Admin</span>
+                    <span class="card-date"><i class="fa-solid fa-clock px-1"></i>May 2, 2020</span>
+                    <span class="card-comments"><i class="fa-solid fa-comments px-1"></i>10</span>
+                  </small>
+                  <p class="card-text">Ut enim ad minim veniam, quis nostrud exercitation</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="img/blog-2.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <div class="card-cat"><a href="#">Urban Forest</a></div>
+                  <a href="article-detail.html">
+                    <h5 class="card-title">Lorem ipsum dolor sit.</h5>
+                  </a>
+                  <small class="card-detail d-flex align-items-center py-1 text-black-50">
+                    <div class="card-avatar">
+                      <img class="img-fluid" src="img/avatar.png" alt="">
+                    </div>by<span class="card-author ps-1 text-black">Admin</span>
+                    <span class="card-date"><i class="fa-solid fa-clock px-1"></i>May 2, 2020</span>
+                    <span class="card-comments"><i class="fa-solid fa-comments px-1"></i>10</span>
+                  </small>
+                  <p class="card-text">Ut enim ad minim veniam, quis nostrud exercitation</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="img/blog-3.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <div class="card-cat"><a href="#">Flower</a></div>
+                  <a href="article-detail.html">
+                    <h5 class="card-title">Lorem ipsum dolor sit.</h5>
+                  </a>
+                  <small class="card-detail d-flex align-items-center py-1 text-black-50">
+                    <div class="card-avatar">
+                      <img class="img-fluid" src="img/avatar.png" alt="">
+                    </div>by<span class="card-author ps-1 text-black">Admin</span>
+                    <span class="card-date"><i class="fa-solid fa-clock px-1"></i>May 2, 2020</span>
+                    <span class="card-comments"><i class="fa-solid fa-comments px-1"></i>10</span>
+                  </small>
+                  <p class="card-text">Ut enim ad minim veniam, quis nostrud exercitation</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="img/blog-1.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <div class="card-cat"><a href="#">Business</a></div>
+                  <a href="article-detail.html">
+                    <h5 class="card-title">Lorem ipsum dolor sit.</h5>
+                  </a>
+                  <small class="card-detail d-flex align-items-center py-1 text-black-50">
+                    <div class="card-avatar">
+                      <img class="img-fluid" src="img/avatar.png" alt="">
+                    </div>by<span class="card-author ps-1 text-black">Admin</span>
+                    <span class="card-date"><i class="fa-solid fa-clock px-1"></i>May 2, 2020</span>
+                    <span class="card-comments"><i class="fa-solid fa-comments px-1"></i>10</span>
+                  </small>
+                  <p class="card-text">Ut enim ad minim veniam, quis nostrud exercitation</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="img/blog-2.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <div class="card-cat"><a href="#">Urban Forest</a></div>
+                  <a href="article-detail.html">
+                    <h5 class="card-title">Lorem ipsum dolor sit.</h5>
+                  </a>
+                  <small class="card-detail d-flex align-items-center py-1 text-black-50">
+                    <div class="card-avatar">
+                      <img class="img-fluid" src="img/avatar.png" alt="">
+                    </div>by<span class="card-author ps-1 text-black">Admin</span>
+                    <span class="card-date"><i class="fa-solid fa-clock px-1"></i>May 2, 2020</span>
+                    <span class="card-comments"><i class="fa-solid fa-comments px-1"></i>10</span>
+                  </small>
+                  <p class="card-text">Ut enim ad minim veniam, quis nostrud exercitation</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="img/blog-3.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <div class="card-cat"><a href="#">Flower</a></div>
+                  <a href="article-detail.html">
+                    <h5 class="card-title">Lorem ipsum dolor sit.</h5>
+                  </a>
+                  <small class="card-detail d-flex align-items-center py-1 text-black-50">
+                    <div class="card-avatar">
+                      <img class="img-fluid" src="img/avatar.png" alt="">
+                    </div>by<span class="card-author ps-1 text-black">Admin</span>
+                    <span class="card-date"><i class="fa-solid fa-clock px-1"></i>May 2, 2020</span>
+                    <span class="card-comments"><i class="fa-solid fa-comments px-1"></i>10</span>
+                  </small>
+                  <p class="card-text">Ut enim ad minim veniam, quis nostrud exercitation</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="img/blog-1.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <div class="card-cat"><a href="#">Business</a></div>
+                  <a href="article-detail.html">
+                    <h5 class="card-title">Lorem ipsum dolor sit.</h5>
+                  </a>
+                  <small class="card-detail d-flex align-items-center py-1 text-black-50">
+                    <div class="card-avatar">
+                      <img class="img-fluid" src="img/avatar.png" alt="">
+                    </div>by<span class="card-author ps-1 text-black">Admin</span>
+                    <span class="card-date"><i class="fa-solid fa-clock px-1"></i>May 2, 2020</span>
+                    <span class="card-comments"><i class="fa-solid fa-comments px-1"></i>10</span>
+                  </small>
+                  <p class="card-text">Ut enim ad minim veniam, quis nostrud exercitation</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="img/blog-2.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <div class="card-cat"><a href="#">Urban Forest</a></div>
+                  <a href="article-detail.html">
+                    <h5 class="card-title">Lorem ipsum dolor sit.</h5>
+                  </a>
+                  <small class="card-detail d-flex align-items-center py-1 text-black-50">
+                    <div class="card-avatar">
+                      <img class="img-fluid" src="img/avatar.png" alt="">
+                    </div>by<span class="card-author ps-1 text-black">Admin</span>
+                    <span class="card-date"><i class="fa-solid fa-clock px-1"></i>May 2, 2020</span>
+                    <span class="card-comments"><i class="fa-solid fa-comments px-1"></i>10</span>
+                  </small>
+                  <p class="card-text">Ut enim ad minim veniam, quis nostrud exercitation</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="img/blog-3.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <div class="card-cat"><a href="#">Flower</a></div>
+                  <a href="article-detail.html">
+                    <h5 class="card-title">Lorem ipsum dolor sit.</h5>
+                  </a>
+                  <small class="card-detail d-flex align-items-center py-1 text-black-50">
+                    <div class="card-avatar">
+                      <img class="img-fluid" src="img/avatar.png" alt="">
+                    </div>by<span class="card-author ps-1 text-black">Admin</span>
+                    <span class="card-date"><i class="fa-solid fa-clock px-1"></i>May 2, 2020</span>
+                    <span class="card-comments"><i class="fa-solid fa-comments px-1"></i>10</span>
+                  </small>
+                  <p class="card-text">Ut enim ad minim veniam, quis nostrud exercitation</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="d-flex flex-wrap flex-lg-column gap-4 col-lg-3 side-bar mb-5">
+          <div class="recent-post-card flex-grow-1 flex-lg-grow-0">
+            <div class="card-body">
+              <h5 class="card-title">Recent Articles</h5>
+              <div class="card-items">
+                <div class="card-item d-flex gap-3">
+                  <img class="card-item__img img-fluid" src="img/recent-post-1.png" alt="...">
+                  <div class="card-item__body">
+                    <h5 class="card-item__title">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h5>
+                    <span class="card-title__date text-black-50">
+                      <i class="fa-solid fa-clock px-1"></i>May 2, 2020
+                    </span>
+                  </div>
+                </div>
+                <div class="card-item d-flex gap-3">
+                  <img class="card-item__img" src="img/recent-post-2.png" alt="...">
+                  <div class="card-item__body">
+                    <h5 class="card-item__title">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h5>
+                    <span class="card-title__date text-black-50">
+                      <i class="fa-solid fa-clock px-1"></i>May 2, 2020
+                    </span>
+                  </div>
+                </div>
+                <div class="card-item d-flex gap-3">
+                  <img class="card-item__img" src="img/recent-post-3.png" alt="...">
+                  <div class="card-item__body">
+                    <h5 class="card-item__title">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h5>
+                    <span class="card-title__date text-black-50">
+                      <i class="fa-solid fa-clock px-1"></i>May 2, 2020
+                    </span>
+                  </div>
+                </div>
+                <div class="card-item d-flex gap-3">
+                  <img class="card-item__img" src="img/recent-post-4.png" alt="...">
+                  <div class="card-item__body">
+                    <h5 class="card-item__title">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h5>
+                    <span class="card-title__date text-black-50">
+                      <i class="fa-solid fa-clock px-1"></i>May 2, 2020
+                    </span>
+                  </div>
+                </div>
+                <div class="card-item d-flex gap-3">
+                  <img class="card-item__img" src="img/recent-post-5.png" alt="...">
+                  <div class="card-item__body">
+                    <h5 class="card-item__title">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h5>
+                    <span class="card-title__date text-black-50">
+                      <i class="fa-solid fa-clock px-1"></i>May 2, 2020
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card category flex-grow-1 flex-md-grow-0 col-md-5 col-lg-12">
+            <div class="card-body">
+              <h5 class="card-title">Categories</h5>
+              <ul class="card-items list-unstyled">
+                <li class="card-item active"><a href="#">Business</a><span>(10)</span></li>
+                <li class="card-item"><a href="#">Consultant</a><span>(20)</span></li>
+                <li class="card-item"><a href="#">Creative</a><span>(15)</span></li>
+                <li class="card-item"><a href="#">Urban Forest</a><span>(22)</span></li>
+                <li class="card-item"><a href="#">Planning</a><span>(30)</span></li>
+                <li class="card-item"><a href="#">Flower</a><span>(10)</span></li>
+                <li class="card-item"><a href="#">Garden</a><span>(100)</span></li>
+              </ul>
+            </div>
+          </div>
+          <!-- <div class="card cta flex-grow-1 flex-lg-grow-0">
+            <div class="card-body">
+              <h5 class="card-title">
+                Any Question About Us ?
+              </h5>
+              <div class="card-text">
+                Call :+034 484 959
+              </div>
+              <button class="card-btn btn btn-outline-light">Contact Us <i
+                  class="fa-solid fa-arrow-right-long"></i></button>
+            </div>
+          </div> -->
+        </div>
+      </div>
+    </div>
+    <nav aria-label="articles pagination">
+      <ul class="pagination">
+        <li class="page-item">
+          <span class="page-link prev"><i class="fa-solid fa-arrow-left-long"></i> Latest Entries</span>
+        </li>
+        <li class="page-item"><a class="page-link" href="#">1</a></li>
+        <li class="page-item active" aria-current="page">
+          <span class="page-link">2</span>
+        </li>
+        <li class="page-item d-none d-md-inline"><a class="page-link" href="#">3</a></li>
+        <li class="page-item"><a class="page-link" href="#">..</a></li>
+        <li class="page-item"><a class="page-link" href="#">10</a></li>
+        <li class="page-item">
+          <a class="page-link next" href="#">Older Entries <i class="fa-solid fa-arrow-right-long"></i></a>
+        </li>
+      </ul>
+    </nav>
+  </main>
+
+
+  <footer class="footer">
+    <div class="container-fluid">
+      <div class="col-md-11 mx-auto">
+        <div class="row row-cols-1 row-cols-lg-3 align-items-center justify-content-center align-items-lg-start justify-content-lg-between gap-3 gap-md-0">
+          <div class="col-lg-4">
+            <div class="footer__logo">
+              <img src="img/logo.svg" alt="logo">
+              <a href="#">Tree<span class="text-primary">Dialog</span></a>
+            </div>
+            <p class="footer__text">We can make a positive impact on our environment and create a healthier, more
+              sustainable future for all</p>
+          </div>
+          <div class="col-lg-3">
+            <h5 class="footer__title">SUPPORT</h5>
+            <ul class="footer__links list-unstyled">
+              <li><a href="terms-and-conditions.html">Terms & Conditions</a></li>
+              <li><a href="privacy-policy.html">Privacy Policy</a></li>
+              <li><a href="about.html">About Us</a></li>
+              <li><a href="articles.html">Articles</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-4">
+            <h5 class="footer__title">CONTACT</h5>
+            <ul class="footer__links list-unstyled">
+                <b>Email:</b>
+                <a href="mailto:info@treedialog.com">info@treedialog.com</a>
+              </li>
+              <li>
+                <b>Tel:</b>
+                <a href="tel:+234 813 000 0000">+234 813 000 0000</a>
+              </li>
+              <li>
+                <b>Address:</b>
+                <address>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</address>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="row">
+          <div class="footer__social d-flex justify-content-center py-3">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer__copy text-center">
+      <span>Copyright | TreeDialog</span>
+    </div>
+  </footer>
+
+  <script src="js/jquery-3.6.4.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+  <script src="js/script.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=initMap"></script>
+</body>
+
+</html>

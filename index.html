@@ -1,0 +1,492 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tree Dialog</title>
+  <link href="css/bootstrap.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="css/style.css?v=1.0.1">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg">
+    <div class="container col-11 col-lg-10">
+      <div class="navbar-brand d-flex align-items-center">
+        <img src="img/logo.svg" alt="Tree Dialog Logo">
+        <a href="index.html">Tree<span class="text-primary">Dialog</span></a>
+      </div>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse gap-4 justify-content-between" id="navbarNav">
+        <ul class="navbar-nav gap-4 align-items-center">
+          <li class="nav-item">
+            <a class="nav-link" href="articles.html">Brows Articles</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="articles.html">Brows Blogs</a>
+          </li>
+        </ul>
+        <div class="d-flex flex-column flex-lg-row align-items-center gap-3 mt-3 mt-lg-0">
+          <button class="btn">Log In</button>
+          <button class="btn">Sign Up</button>
+          <button class="btn btn-primary">Post Article</button>
+          <form class="d-flex mb-2 mb-md-0" role="search">
+            <input class="form-control me-2 d-md-none" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn" type="submit">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <section id="hero">
+    <div class="container p-md-5">
+      <div class="col-lg-6 col-xl-5 text-start">
+        <h1 class="hero-title">Post Article for any category, online</h1>
+        <ul class="hero-text">
+          <li>Write and Publish Anywhere.</li>
+          <li>Connect with Readers.</li>
+          <li>Build Your Reputation.</li>
+          <li>Learn and Grow.</li>
+        </ul>
+        <div class="d-flex flex-column flex-md-row gap-2 gap-md-3">
+          <a href="#" class="btn btn-primary">Post Articles</a>
+          <a href="#" class="btn btn-primary">Share with Friends</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="intro">
+    <div class="container-fluid">
+      <div class="col-md-11 mx-auto">
+      <h2 class="title">Share Your Thoughts, Stories, and Expertise with the World</h2>
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4 align-items-center">
+        <div class="col">
+          <div class="d-flex align-items-center gap-4 mb-3">
+            <i class="fa-solid fa-newspaper fa-2x text-primary"></i>
+            <h3 class="m-0 subtitle">Post Articles</h3>
+          </div>
+          <p>Share your expertise and knowledge on a variety of topics with the world. Write informative and educational
+            articles to help others learn and grow.</p>
+        </div>
+        <div class="col">
+          <div class="d-flex align-items-center gap-4 mb-3">
+            <i class="fa-solid fa-blog fa-2x text-primary"></i>
+            <h3 class="m-0 subtitle">Post Blog</h3>
+          </div>
+          <p>Express yourself by sharing personal experiences and stories. Connect with like-minded individuals and
+            foster a sense of community.</p>
+        </div>
+        <div class="col">
+          <div class="d-flex align-items-center gap-4 mb-3">
+            <i class="fa-solid fa-share-nodes fa-2x text-primary"></i>
+            <h3 class="m-0 subtitle">Share Stories with Friends/Family</h3>
+          </div>
+          <p>Keep loved ones informed and connected, regardless of distance or time. Share experiences, photos, and
+            memories with those who matter most.</p>
+        </div>
+        <div class="col">
+          <div class="d-flex align-items-center gap-4 mb-3">
+            <i class="fa-solid fa-brain fa-2x text-primary"></i>
+            <h3 class="m-0 subtitle">Knowledge Sharing</h3>
+          </div>
+          <p>Learn from experts and peers on a variety of topics. Access insights from industry experts and
+            knowledgeable individuals to stay up-to-date.</p>
+        </div>
+      </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="topics">
+    <div class="container-fluid">
+      <div class="col-md-11 mx-auto">
+      <h2 class="section-title">We Cover a Wide Range of Topics</h2>
+      <p class="section-subtitle">Our website is full of informative and engaging articles on all things related to
+        trees.</p>
+      <div class="topic-list row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+        <div class="col">
+          <div class="topic">
+            <div class="topic__front">
+              <img src="img/scarecrow.svg" class="topic__img" alt="scarecrow">
+              <p class="topic__text">Including Arboriculture</p>
+            </div>
+            <div class="topic__back">
+              <p class="topic__desc">
+                The study and practice of cultivating, managing, and caring for trees and other woody plants in urban
+                and rural areas. Arborists are experts in tree care, pruning, and removal.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="topic">
+            <div class="topic__front">
+              <img src="img/placeholder.svg" class="topic__img" alt="scarecrow">
+              <p class="topic__text">Urban Forestry</p>
+            </div>
+            <div class="topic__back">
+              <p class="topic__desc">
+                The management of trees and forests in urban areas to provide environmental, economic, and social
+                benefits. Urban foresters focus on the selection, planting, maintenance, and protection of trees in
+                cities and towns.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="topic">
+            <div class="topic__front">
+              <img src="img/farmhouse.svg" class="topic__img" alt="scarecrow">
+              <p class="topic__text">Urban Planning</p>
+            </div>
+            <div class="topic__back">
+              <p class="topic__desc">
+                The process of designing and managing the physical, social, and economic development of cities and
+                communities. Urban planners work to create sustainable, livable, and functional environments that meet
+                the needs of residents and businesses.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="topic">
+            <div class="topic__front">
+              <img src="img/robotic-arm.svg" class="topic__img" alt="scarecrow">
+              <p class="topic__text">Environmental Science</p>
+            </div>
+            <div class="topic__back">
+              <p class="topic__desc">
+                The study of the natural world and the interactions between living and non-living systems. Environmental
+                scientists investigate issues such as pollution, climate change, and ecosystem management, with the goal
+                of creating sustainable solutions to environmental problems.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="topic">
+            <div class="topic__front">
+              <img src="img/experiment.svg" class="topic__img" alt="scarecrow">
+              <p class="topic__text">Sustainability</p>
+            </div>
+            <div class="topic__back">
+              <p class="topic__desc">
+                The concept of meeting the needs of the present without compromising the ability of future generations
+                to meet their own needs. Sustainability encompasses environmental, economic, and social dimensions, and
+                involves balancing the needs of people, planet, and profit.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="topic">
+            <div class="topic__front">
+              <img src="img/landscape.svg" class="topic__img" alt="scarecrow">
+              <p class="topic__text">Landscape Architecture</p>
+            </div>
+            <div class="topic__back">
+              <p class="topic__desc">
+                The design of outdoor spaces such as parks, gardens, and public areas. Landscape architects combine art
+                and science to create functional, beautiful, and sustainable landscapes that promote health, well-being,
+                and community.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="join-us">
+    <div class="container">
+      <div class="col-lg-8 mx-auto">
+        <p class="section-text">Explore our articles, share your thoughts, and become a part of our vibrant community.
+        </p>
+        <button class="btn">Join Us Now</button>
+      </div>
+    </div>
+  </section>
+
+  <section id="blog-posts">
+    <div class="container-fluid">
+      <div class="col-md-11 mx-auto">
+      <div class="d-flex flex-column align-items-center">
+        <ul
+          class="nav nav-tabs justify-content-center bg-primary-subtle rounded-pill m-5 overflow-hidden border border-1"
+          id="nav-tab-cat" role="tablist">
+          <li class="nav-item">
+            <a class="nav-link active" id="nav-article-tab" data-bs-toggle="tab" data-bs-target="#nav-article"
+              type="button" role="tab" aria-controls="nav-article" aria-selected="true">Articles</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="nav-blog-tab" data-bs-toggle="tab" data-bs-target="#nav-blog" type="button"
+              role="tab" aria-controls="nav-blog" aria-selected="false">Blogs</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="nav-story-tab" data-bs-toggle="tab" data-bs-target="#nav-story" type="button"
+              role="tab" aria-controls="nav-story" aria-selected="false">Stories</a>
+          </li>
+        </ul>
+        <div class="tab-content" id="nav-tabContent">
+          <div class="tab-pane fade show active" id="nav-article" role="tabpanel" aria-labelledby="nav-article-tab">
+            <div class="row blog-posts-list row-cols-1 row-cols-md-2 row-cols-lg-3 g-3">
+              <div class="blog-post col">
+                <img src="img/post-1.png" class="blog-post__img img-fluid" alt="...">
+                <div class="card-body">
+                  <div class="blog-post__cat"><a href="#">Business</a></div>
+                  <h5 class="blog-post__title">What is Lorem Ipsum?</h5>
+                  <small class="blog-post__detail d-flex align-items-center py-1 text-black-50">
+                    <div class="card-avatar">
+                      <img class="img-fluid" src="img/avatar.png" alt="">
+                    </div>by<span class="card-author ps-1 text-black">Admin</span>
+                    <span class="card-date"><i class="fa-solid fa-clock px-1"></i>May 2, 2020</span>
+                    <span class="card-comments"><i class="fa-solid fa-comments px-1"></i>10</span>
+                  </small>
+                  <p class="blog-post__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                  </p>
+                  <a href="article-detail.html" class="blog-post__btn btn btn-outline-primary">Read More ...</a>
+                </div>
+              </div>
+              <div class="blog-post col">
+                <img src="img/post-2.png" class="blog-post__img img-fluid" alt="...">
+                <div class="card-body">
+                  <div class="blog-post__cat"><a href="#">Business</a></div>
+                  <h5 class="blog-post__title">What is Lorem Ipsum?</h5>
+                  <small class="blog-post__detail d-flex align-items-center py-1 text-black-50">
+                    <div class="card-avatar">
+                      <img class="img-fluid" src="img/avatar.png" alt="">
+                    </div>by<span class="card-author ps-1 text-black">Admin</span>
+                    <span class="card-date"><i class="fa-solid fa-clock px-1"></i>May 2, 2020</span>
+                    <span class="card-comments"><i class="fa-solid fa-comments px-1"></i>10</span>
+                  </small>
+                  <p class="blog-post__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                  </p>
+                  <a href="article-detail.html" class="blog-post__btn btn btn-outline-primary">Read More ...</a>
+                </div>
+              </div>
+              <div class="blog-post col">
+                <img src="img/post-3.png" class="blog-post__img img-fluid" alt="...">
+                <div class="card-body">
+                  <div class="blog-post__cat"><a href="#">Business</a></div>
+                  <h5 class="blog-post__title">What is Lorem Ipsum?</h5>
+                  <small class="blog-post__detail d-flex align-items-center py-1 text-black-50">
+                    <div class="card-avatar">
+                      <img class="img-fluid" src="img/avatar.png" alt="">
+                    </div>by<span class="card-author ps-1 text-black">Admin</span>
+                    <span class="card-date"><i class="fa-solid fa-clock px-1"></i>May 2, 2020</span>
+                    <span class="card-comments"><i class="fa-solid fa-comments px-1"></i>10</span>
+                  </small>
+                  <p class="blog-post__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                  </p>
+                  <a href="article-detail.html" class="blog-post__btn btn btn-outline-primary">Read More ...</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="nav-blog" role="tabpanel" aria-labelledby="nav-blog-tab">
+            <div class="row blog-posts-list row-cols-1 row-cols-md-2 row-cols-lg-3 g-3">
+              <div class="blog-post col">
+                <img src="img/post-1.png" class="blog-post__img img-fluid" alt="...">
+                <div class="card-body">
+                  <div class="blog-post__cat"><a href="#">Business</a></div>
+                  <h5 class="blog-post__title">What is Lorem Ipsum?</h5>
+                  <small class="blog-post__detail d-flex align-items-center py-1 text-black-50">
+                    <div class="card-avatar">
+                      <img class="img-fluid" src="img/avatar.png" alt="">
+                    </div>by<span class="card-author ps-1 text-black">Admin</span>
+                    <span class="card-date"><i class="fa-solid fa-clock px-1"></i>May 2, 2020</span>
+                    <span class="card-comments"><i class="fa-solid fa-comments px-1"></i>10</span>
+                  </small>
+                  <p class="blog-post__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                  </p>
+                  <a href="article-detail.html" class="blog-post__btn btn btn-outline-primary">Read More ...</a>
+                </div>
+              </div>
+              <div class="blog-post col">
+                <img src="img/post-2.png" class="blog-post__img img-fluid" alt="...">
+                <div class="card-body">
+                  <div class="blog-post__cat"><a href="#">Business</a></div>
+                  <h5 class="blog-post__title">What is Lorem Ipsum?</h5>
+                  <small class="blog-post__detail d-flex align-items-center py-1 text-black-50">
+                    <div class="card-avatar">
+                      <img class="img-fluid" src="img/avatar.png" alt="">
+                    </div>by<span class="card-author ps-1 text-black">Admin</span>
+                    <span class="card-date"><i class="fa-solid fa-clock px-1"></i>May 2, 2020</span>
+                    <span class="card-comments"><i class="fa-solid fa-comments px-1"></i>10</span>
+                  </small>
+                  <p class="blog-post__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                  </p>
+                  <a href="article-detail.html" class="blog-post__btn btn btn-outline-primary">Read More ...</a>
+                </div>
+              </div>
+              <div class="blog-post col">
+                <img src="img/post-3.png" class="blog-post__img img-fluid" alt="...">
+                <div class="card-body">
+                  <div class="blog-post__cat"><a href="#">Business</a></div>
+                  <h5 class="blog-post__title">What is Lorem Ipsum?</h5>
+                  <small class="blog-post__detail d-flex align-items-center py-1 text-black-50">
+                    <div class="card-avatar">
+                      <img class="img-fluid" src="img/avatar.png" alt="">
+                    </div>by<span class="card-author ps-1 text-black">Admin</span>
+                    <span class="card-date"><i class="fa-solid fa-clock px-1"></i>May 2, 2020</span>
+                    <span class="card-comments"><i class="fa-solid fa-comments px-1"></i>10</span>
+                  </small>
+                  <p class="blog-post__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                  </p>
+                  <a href="article-detail.html" class="blog-post__btn btn btn-outline-primary">Read More ...</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="nav-story" role="tabpanel" aria-labelledby="nav-story-tab">
+            <div class="row blog-posts-list row-cols-1 row-cols-md-2 row-cols-lg-3 g-3">
+              <div class="blog-post col">
+                <img src="img/post-1.png" class="blog-post__img img-fluid" alt="...">
+                <div class="card-body">
+                  <div class="blog-post__cat"><a href="#">Business</a></div>
+                  <h5 class="blog-post__title">What is Lorem Ipsum?</h5>
+                  <small class="blog-post__detail d-flex align-items-center py-1 text-black-50">
+                    <div class="card-avatar">
+                      <img class="img-fluid" src="img/avatar.png" alt="">
+                    </div>by<span class="card-author ps-1 text-black">Admin</span>
+                    <span class="card-date"><i class="fa-solid fa-clock px-1"></i>May 2, 2020</span>
+                    <span class="card-comments"><i class="fa-solid fa-comments px-1"></i>10</span>
+                  </small>
+                  <p class="blog-post__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                  </p>
+                  <a href="article-detail.html" class="blog-post__btn btn btn-outline-primary">Read More ...</a>
+                </div>
+              </div>
+              <div class="blog-post col">
+                <img src="img/post-2.png" class="blog-post__img img-fluid" alt="...">
+                <div class="card-body">
+                  <div class="blog-post__cat"><a href="#">Business</a></div>
+                  <h5 class="blog-post__title">What is Lorem Ipsum?</h5>
+                  <small class="blog-post__detail d-flex align-items-center py-1 text-black-50">
+                    <div class="card-avatar">
+                      <img class="img-fluid" src="img/avatar.png" alt="">
+                    </div>by<span class="card-author ps-1 text-black">Admin</span>
+                    <span class="card-date"><i class="fa-solid fa-clock px-1"></i>May 2, 2020</span>
+                    <span class="card-comments"><i class="fa-solid fa-comments px-1"></i>10</span>
+                  </small>
+                  <p class="blog-post__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                  </p>
+                  <a href="article-detail.html" class="blog-post__btn btn btn-outline-primary">Read More ...</a>
+                </div>
+              </div>
+              <div class="blog-post col">
+                <img src="img/post-3.png" class="blog-post__img img-fluid" alt="...">
+                <div class="card-body">
+                  <div class="blog-post__cat"><a href="#">Business</a></div>
+                  <h5 class="blog-post__title">What is Lorem Ipsum?</h5>
+                  <small class="blog-post__detail d-flex align-items-center py-1 text-black-50">
+                    <div class="card-avatar">
+                      <img class="img-fluid" src="img/avatar.png" alt="">
+                    </div>by<span class="card-author ps-1 text-black">Admin</span>
+                    <span class="card-date"><i class="fa-solid fa-clock px-1"></i>May 2, 2020</span>
+                    <span class="card-comments"><i class="fa-solid fa-comments px-1"></i>10</span>
+                  </small>
+                  <p class="blog-post__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                  </p>
+                  <a href="article-detail.html" class="blog-post__btn btn btn-outline-primary">Read More ...</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <section id="newsletter">
+    <div class="container">
+      <div class="col-lg-10 mx-auto">
+        <div class="d-flex flex-column flex-md-row align-items-center justify-content-between py-4 gap-5">
+          <h2 class="section-title">Subscribe Our Newsletter</h2>
+          <form class="col-lg-5">
+            <div class="input-group">
+              <input type="email" class="form-control" placeholder="Enter your email">
+              <button type="submit" class="btn btn-outline-primary">Subscribe Now</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container-fluid">
+      <div class="col-md-11 mx-auto">
+        <div
+          class="row row-cols-1 row-cols-lg-3 align-items-center justify-content-center align-items-lg-start justify-content-lg-between gap-3 gap-md-0">
+          <div class="col-lg-4">
+            <div class="footer__logo">
+              <img src="img/logo.svg" alt="logo">
+              <a href="#">Tree<span class="text-primary">Dialog</span></a>
+            </div>
+            <p class="footer__text">We can make a positive impact on our environment and create a healthier, more
+              sustainable future for all</p>
+          </div>
+          <div class="col-lg-3">
+            <h5 class="footer__title">SUPPORT</h5>
+            <ul class="footer__links list-unstyled">
+              <li><a href="terms-and-conditions.html">Terms & Conditions</a></li>
+              <li><a href="privacy-policy.html">Privacy Policy</a></li>
+              <li><a href="about.html">About Us</a></li>
+              <li><a href="articles.html">Articles</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-4">
+            <h5 class="footer__title">CONTACT</h5>
+            <ul class="footer__links list-unstyled">
+              <b>Email:</b>
+              <a href="mailto:info@treedialog.com">info@treedialog.com</a>
+              </li>
+              <li>
+                <b>Tel:</b>
+                <a href="tel:+234 813 000 0000">+234 813 000 0000</a>
+              </li>
+              <li>
+                <b>Address:</b>
+                <address>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</address>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="row">
+          <div class="footer__social d-flex justify-content-center py-3">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer__copy text-center">
+      <span>Copyright | TreeDialog</span>
+    </div>
+  </footer>
+
+  <script src="js/jquery-3.6.4.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
